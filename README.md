@@ -141,36 +141,38 @@ Optimizations Applied:
 Object Detection:
 
 
-Line Trace forward from the VR camera
+ + Line Trace forward from the VR camera
 
 
-On hit → ACustomActorDataBase::SetHighlight(true) applied
++ On hit → ACustomActorDataBase::SetHighlight(true) applied
 
 
-UI Widget spawned showing object details
++ UI Widget spawned showing object details
 
 
 Object Highlighting:
- Material override with the OutlineShader material.
+
++ Material override with the OutlineShader material.
 
 
 UI Interaction Cleanup:
- CloseInfoWidget() → cleans up widget and removes highlight.
-
+ 
++ CloseInfoWidget() → cleans up widget and removes highlight.
 
 
 
 🖥️ Code Implementation Highlights
-Reusable Actor Base Class → All actor variations inherit from one structure, supporting DRY principles.
+
++ Reusable Actor Base Class → All actor variations inherit from one structure, supporting DRY principles.
 
 
-Interactive Feedback → Visual + textual feedback for player clarity.
++ Interactive Feedback → Visual + textual feedback for player clarity.
 
 
-Clean Input Handling → Clear separation between input bindings and implementation functions.
++ Clean Input Handling → Clear separation between input bindings and implementation functions.
 
 
-Physics Realism → Damping forces, oscillations, and interpolation to create natural drone motion.
++ Physics Realism → Damping forces, oscillations, and interpolation to create natural drone motion.
 
 
 
