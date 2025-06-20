@@ -1,0 +1,42 @@
+# Ignore build folders
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Ignore IDE/editor folders
+.vs/
+.idea/
+
+# Ignore generated project files
+*.sln
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+
+# Ignore Mac-specific files
+.DS_Store
+
+# Ignore temporary files
+*.log
+*.obj
+*.pch
+*.pdb
+*.ipch
+*.db
+*.aps
+*.ncb
+*.suo
+*.user
+*.sdf
+*.cache
+*.dll
+*.exe
+
+# Ignore crash reports
+*.dmp
+
+# Ignore config backups
+Config/*.ini~
